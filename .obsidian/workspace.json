@@ -155,6 +155,7 @@
   },
   "active": "b09ecf459335b889",
   "lastOpenFiles": [
+    "README.md",
     "0. AWS/AWS.md",
     "_icons/Pasted image 20230405132514.png",
     "0. AWS/_general/Accessing AWS Services _ Pricing.md",
@@ -184,7 +185,6 @@
     "1. Security/account protection/IAM.md",
     "1. Security/account protection/RAM.md",
     "1. Security/account protection/SSO (Now Identity Center).md",
-    "1. Security/application protection/Detective.md",
     "docs/1. Security/network protection/WAF.html",
     "docs/1. Security/network protection",
     "docs/1. Security",
