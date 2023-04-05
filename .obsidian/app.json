@@ -1,0 +1,9 @@
+{
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "showLineNumber": true,
+  "spellcheck": false,
+  "readableLineLength": false,
+  "attachmentFolderPath": "_icons",
+  "vimMode": false
+}

@@ -1,0 +1,3 @@
+- Contains the base OS, base software, etc...
+- Hard drive, which is part of the machine / rack in the data center
+- By default, it is not stored here but at a managed [[EBS]] volume

@@ -1,0 +1,5 @@
+- **MemoryDB** = Persistent in-memory storage
+- **DocumentDB** = Document (nested data structure) database
+- **Keyspaces** = Wide column database (flexible column formats)
+- **Timestream** =Time series databse
+- **Quantum Ledger Database** = Immutable log of data changes

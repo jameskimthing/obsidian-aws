@@ -1,0 +1,205 @@
+{
+  "main": {
+    "id": "3d88d4ba56647222",
+    "type": "split",
+    "children": [
+      {
+        "id": "d5fa94d5cad74ebd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b09ecf459335b889",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "_icons/Pasted image 20230405132514.png"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "dfbcfc6409212a8a",
+    "type": "split",
+    "children": [
+      {
+        "id": "abe5574a7f0d8eef",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f33e553d9433204c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "43be737ca68f6bb3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3524e20ca394b3bd",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 257.5
+  },
+  "right": {
+    "id": "3095b0cd86e21fdc",
+    "type": "split",
+    "children": [
+      {
+        "id": "879b05bb6f5f6ceb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fbb7f2260b927212",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_icons/Pasted image 20230405132514.png",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ea06cb800011f9a1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_icons/Pasted image 20230405132514.png",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a363b652e4d1ddb9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "078317b68ddfe6aa",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_icons/Pasted image 20230405132514.png"
+              }
+            }
+          },
+          {
+            "id": "94c10b38f3e9b150",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 245.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "webpage-html-export:Export Vault to HTML": false
+    }
+  },
+  "active": "b09ecf459335b889",
+  "lastOpenFiles": [
+    "0. AWS/AWS.md",
+    "_icons/Pasted image 20230405132514.png",
+    "0. AWS/_general/Accessing AWS Services _ Pricing.md",
+    "0. AWS/_general/Cloud.md",
+    "0. AWS/_general/Shared Responsibility.md",
+    "0. AWS/best practices/Acceptable Use Policy.md",
+    "0. AWS/best practices/Trusted Advisor.md",
+    "0. AWS/best practices/Well Architected Tool.md",
+    "0. AWS/best practices/Well-Architected Framework.md",
+    "0. AWS/beyond aws services/APN.md",
+    "0. AWS/beyond aws services/AWS Managed Services.md",
+    "0. AWS/beyond aws services/AWS Marketplace.md",
+    "0. AWS/beyond aws services/AWS Professional Services.md",
+    "0. AWS/beyond aws services/AWS Support.md",
+    "0. AWS/infrastructure/Global Network.md",
+    "0. AWS/infrastructure/Local Zones, Outposts, Wavelength Zones.md",
+    "docs/0. AWS/infrastructure/Regions, AZs, Data Centers.html",
+    "docs/0. AWS/infrastructure",
+    "docs/0. AWS",
+    "0. AWS/infrastructure/Regions, AZs, Data Centers.md",
+    "1. Security/Security.md",
+    "1. Security/_concepts/SSL.md",
+    "1. Security/_general/ACM.md",
+    "1. Security/_general/Cognito.md",
+    "1. Security/_general/Security Hub.md",
+    "1. Security/account protection/GuardDuty.md",
+    "1. Security/account protection/IAM.md",
+    "1. Security/account protection/RAM.md",
+    "1. Security/account protection/SSO (Now Identity Center).md",
+    "1. Security/application protection/Detective.md",
+    "docs/1. Security/network protection/WAF.html",
+    "docs/1. Security/network protection",
+    "docs/1. Security",
+    "docs/2. Compute/serverless/Lambda.html",
+    "docs/2. Compute/serverless",
+    "docs/2. Compute",
+    "docs/3. Management Governance/service _ workload configuration/Systems Manager.html",
+    "_icons/Pasted image 20230405132214.png",
+    "_icons/Pasted image 20230405131509.png",
+    "_icons/Pasted image 20230405131241.png",
+    "_icons/Pasted image 20230405130904.png",
+    "_icons/Pasted image 20230405130642.png",
+    "_icons/Pasted image 20230405132800.png",
+    "_icons/Pasted image 20230405132751.png",
+    "_icons/Pasted image 20230405132747.png",
+    "_icons/Pasted image 20230405132737.png"
+  ]
+}
