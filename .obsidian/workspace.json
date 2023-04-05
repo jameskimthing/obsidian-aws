@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "d5fa94d5cad74ebd",
+        "id": "e5f24539d78deec7",
         "type": "tabs",
         "children": [
           {
-            "id": "b09ecf459335b889",
+            "id": "e12e30f023f9aaa5",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "_icons/Pasted image 20230405132514.png"
+                "file": "Main.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_icons/Pasted image 20230405132514.png",
+                "file": "Main.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_icons/Pasted image 20230405132514.png",
+                "file": "Main.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_icons/Pasted image 20230405132514.png"
+                "file": "Main.md"
               }
             }
           },
@@ -153,11 +155,12 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "b09ecf459335b889",
+  "active": "e12e30f023f9aaa5",
   "lastOpenFiles": [
     "README.md",
-    "0. AWS/AWS.md",
+    "Main.md",
     "_icons/Pasted image 20230405132514.png",
+    "0. AWS/AWS.md",
     "0. AWS/_general/Accessing AWS Services _ Pricing.md",
     "0. AWS/_general/Cloud.md",
     "0. AWS/_general/Shared Responsibility.md",
@@ -184,7 +187,6 @@
     "1. Security/account protection/GuardDuty.md",
     "1. Security/account protection/IAM.md",
     "1. Security/account protection/RAM.md",
-    "1. Security/account protection/SSO (Now Identity Center).md",
     "docs/1. Security/network protection/WAF.html",
     "docs/1. Security/network protection",
     "docs/1. Security",
