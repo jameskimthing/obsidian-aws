@@ -16,6 +16,13 @@
 	- The key pair must be created / assigned during instance creation
 	- Need the private key that is created in order to connect with a SSH client
 
+#### Types:
+1. *General Purpose* --> Provide a balance of compute, memory and networking resources, and can be used for a variety of diverse workloads
+2. *Compute Optimized* --> Instances that are optimized for compute-intensive workloads
+3. *Memory Optimized* --> Instances that are optimized for memory-intensive workloads **(Database)**
+4. *Storage Optimized* --> Instances that are optimized for storage-intensive workloads **(Storage)**
+5. *Accelerated Computing* --> A unique set of instance types that use specialized hardware accelerators or co-processors for operations like graphics processing, machine learning, or high performance computing
+
 #### Launch Template
 - A set of configurations used when launching an **EC2** instance
 - Can include the [[AMI]] to be used
@@ -36,6 +43,7 @@
 	- Pay in advance for a *chosen amount of usage*
 	- Ideal if you can commit long-term
 - **Reserved Instances** = Must be *bought separately*
+	- Will be **either 1 or 3 years**
 	- Discount over on-deman pricing
 	- Pay in advance *for chosen instance types* 
 		- *Example:* pay in advance for a t2.micro instance in advance, commiting for 1 or 3 years, and whenever starting such instance, which meets those reserved instance requirements set in advance, you wont get charged

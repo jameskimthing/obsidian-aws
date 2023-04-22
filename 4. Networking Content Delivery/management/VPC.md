@@ -24,6 +24,7 @@
 | Rules        | Supports **allow** rules only                              | Supports **allow && deny** rules                                              |
 
 #### Internet Connection
+- for with internal / only with own services, check [[Direct Connect]]
 ![[Pasted image 20230405131614.png]]
 - **Internet Gateway**
 	- What makes public [[Subnets]] have access to the internet

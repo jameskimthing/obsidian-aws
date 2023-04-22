@@ -4,6 +4,7 @@
 
 ## About
 - Check [Role vs User](https://stackoverflow.com/questions/46199680/difference-between-iam-role-and-iam-user-in-aws)
+- An AWS IAM user is like a person who has a specific set of permissions to do things in AWS. An IAM role is like a hat that has specific permissions attached to it. Anyone who wears the hat can do things in AWS according to the permissions attached to the hat. The difference is that an IAM user is associated with a specific person while an IAM role can be worn by anyone who needs it
 - **Root Account** --> The base account, not to be used / shared, can create *IAM users*
 
 - **IAM User** --> End user think about people

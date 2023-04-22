@@ -19,6 +19,10 @@
 - [[Cost Explorer]]--> View bills (updated daily) and analyze costs with cost management tools
 - [[Budgets]] --> Set budgets, get alarms when threshold exceeded
 - [[Cost and Usage Report]] --> Can receive reports that break down your costs by the hour, day, or month, by product or product resource, or by tags that you define yourself
+*Alternate way to view:*
+- [[Cost Explorer]] --> Visualize costs over time
+- [[Budgets]] --> Alarms on threshold
+
 
 ## Infrastructure as Code
 - [[CloudFormation]] --> Automate infrastructure deployments & updates

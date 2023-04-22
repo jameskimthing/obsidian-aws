@@ -1,6 +1,7 @@
 # Relational Database Service
 ![[Pasted image 20230405131858.png]]
 - A managed database service
+- **IS NOT SERVERLESS**
 - Choose the following:
 	- **Database Engine**
 		- Version of database

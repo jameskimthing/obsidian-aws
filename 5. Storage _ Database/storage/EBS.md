@@ -15,6 +15,7 @@
 - *Note:* is an extra feature, must be enabled / managed
 
 #### Snapshots
+- Can backup data on volumes to [[S3]]
 - [[EC2]] instance data & state can be saved
 - Restore snapshot on new [[EC2]] instances
 
