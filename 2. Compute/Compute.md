@@ -29,7 +29,7 @@
 - Monitor containers
 
 ## Serverless!
-![[Arch-Category_Serverless_48.png]]
+![[Serverless.png]]
 - Check [[Serverless]]
 - [[Lambda]] is the main serverless service, but *compute is not everything*
 - [[S3]] can be thought of as a serverless storage service

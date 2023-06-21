@@ -9,4 +9,4 @@
 - No templates and no CloudFormation template language
 	- Can use languages like Python or TypeScript to define your infrastructure
 - Under the hood, the CDK tool then creates CloudFormation templates again
-
+- The templates can be stored in [[S3]] buckets

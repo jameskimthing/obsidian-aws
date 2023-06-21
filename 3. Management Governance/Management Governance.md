@@ -1,5 +1,5 @@
 #organize 
-![[Pasted image 20230405131339.png]]
+![[Management Governance.png]]
 # Management Governance
 - Managing the cloud
 - [[OpsWorks]] --> A web-based service that provides a graphical user interface (GUI) for managing and configuring applications in the AWS cloud
@@ -11,11 +11,11 @@
 	- Use free tier / monthly free usage multiple times (e.g. monthly free lambda executions)
 	- Improve organization && management by splitting by workload, team, or other criteria
 - [[Organizations]] --> Centralized billing, centralized management, cross-account service configurations && more
-- [[Control Tower]](new) --> Creates best-practice multi-account practice for you
+- [[Control Tower]] (new!) --> Creates best-practice multi-account practice for you
 - Share resources via [[RAM]]
 
 ## Financial Management
-![[Pasted image 20230405131346.png]]
+![[Financial Management.png]]
 - [[Cost Explorer]]--> View bills (updated daily) and analyze costs with cost management tools
 - [[Budgets]] --> Set budgets, get alarms when threshold exceeded
 - [[Cost and Usage Report]] --> Can receive reports that break down your costs by the hour, day, or month, by product or product resource, or by tags that you define yourself
@@ -54,3 +54,11 @@
 - [[XRay]] --> *tracing* (see the flow)
 	- A distributed tracing system that enables you to understand the flow of requests and responses through your application
 - [[XRay]] is more for debugging, while [[CloudWatch]] is just for monitoring, feeding its data into various sources
+
+
+## Disaster Recovery and Prevention
+- Coming back to live after a disaster
+- [[Backup]] --> For backup
+- [[Disaster Recovery Options]] --> Trades between *cost vs time* for recovery / prevention
+- [[RTO && RPO]] --> Recovery time, and data loss
+

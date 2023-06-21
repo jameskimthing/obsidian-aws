@@ -6,3 +6,5 @@
 #### Auto Scaling Group
 - A collection of EC2 instances that are treated as a logical grouping for the purposes of automatic scaling and management
 - Lets you use Amazon *EC2 Auto Scaling* features such as health check replacements and scaling policies
+- Needs a [[EC2 Launch Template]]
+- 

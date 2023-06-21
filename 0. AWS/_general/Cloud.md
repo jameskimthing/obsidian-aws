@@ -1,9 +1,9 @@
 # The Cloud
 - AWS os responsible for operating && maintaining the infrastructure
 
-## Reliability
-- AWS [SLAs](https://aws.amazon.com/legal/service-level-agreements/?aws-sla-cards.sort-by=item.additionalFields.serviceNameLower&aws-sla-cards.sort-order=asc&awsf.tech-category-filter=*all)
-- Tools && services for building reliable solutions
+
+## The 6 Advantages of the Cloud
+- [here](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/six-advantages-of-cloud-computing.html)
 
 ## Agility, Elasticity, Scalability
 - Scale up / down as needed, anytime

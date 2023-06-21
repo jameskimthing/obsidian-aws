@@ -19,12 +19,17 @@ Suppose application is running on several [[EC2]], in an [[EC2 Auto Scaling]], a
 - For more places other than *Edge Locations*, check [[Local Zones, Outposts, Wavelength Zones]]
 
 *Differences:*
+
 |         | [[CloudFront]]                                      | [[Global Accelerator]]                                                                                                                          |
 | ------- | --------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
 | Uses    | Uses [[Edge Locations]] to *cache* content          | Uses [[Edge Locations]] to *find an optimal pathway* to the nearest regional endpoint                                                           |
 | Handles | *HTTP Protocol*                                     | Both *HTTP Protocol* and non-HTTP Protocols like *TCP* and *UDP*                                                                                |
 | IP      | Multiple sets of dynamically changing IP addresses  | Set of static IP addresses as a fixed entry point                                                                                               |
 | Pricing | Mainly based on data transfer out and HTTP requests | Fixed hourly fee + incremental charge over your standard Data Transfer rates ([DT-Premium](https://aws.amazon.com/global-accelerator/pricing/)) |
+|         |                                                     |                                                                                                                                                 |
+
+
+
 
 ## Management
 - Check [[IP Addresses]]

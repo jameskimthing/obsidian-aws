@@ -5,3 +5,4 @@
 
 #### Analyze Infrastructure with the help of **Six Pillars**
 ![[Well-Architected Framework.png]]
+

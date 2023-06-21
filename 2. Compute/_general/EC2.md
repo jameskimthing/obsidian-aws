@@ -8,6 +8,7 @@
 	- Connect to instance -> Install software, add code -> Start workload / application -> (moniter workload) -> **Stop / Shut Down instance**
 - Data such as the base OS and software is stored at either the [[EC2 Instance Store]] or is [[EBS]]-Backed (*default*)
 - [[AMI]] --> Pre-configured [[EC2]] instance
+- check [[EC2 Launch Template]]
 
 #### Connection Options
 - *EC2 Instance Connect* --> Accessible directly from inside the management console
@@ -23,9 +24,6 @@
 4. *Storage Optimized* --> Instances that are optimized for storage-intensive workloads **(Storage)**
 5. *Accelerated Computing* --> A unique set of instance types that use specialized hardware accelerators or co-processors for operations like graphics processing, machine learning, or high performance computing
 
-#### Launch Template
-- A set of configurations used when launching an **EC2** instance
-- Can include the [[AMI]] to be used
 
 # Pricing
 - **On Demand Instances** = *Default* and most flexible option

@@ -58,6 +58,7 @@
 - [[KMS]] --> Data encryption, AWS-managed keys
 - [[CloudHSM]] --> Data encryption, Custom key store
 - [[Secrets Manager]] --> Securely store secret values
+- [[Parameter Store]] --> Environment variables (use [[Secrets Manager]] for *more* security)
 - [[ACM]] --> Encrypt network traffic
 - [[Macie]] --> Discover data protection issues
 

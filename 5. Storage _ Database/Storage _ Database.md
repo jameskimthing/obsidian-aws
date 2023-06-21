@@ -11,10 +11,10 @@
 #### Comparison
 |              | EBS                                 | EFS                                | S3                                                   |
 | ------------ | ----------------------------------- | ---------------------------------- | ---------------------------------------------------- |
-| About        | Attachable hard drives              | Attachable file systems            | Independent object storage                                                     |
+| About        | Attachable hard drives              | Attachable file systems            | Independent object storage                           |
 | Format       | Unformatted hard drive              | Pre-formatted file system          | Store application, user, business, or personal files |
-| Scaling     | Less auto-scaling, more manual work | Scales automatically               | Unlimited scaling built-in                     |
-| Usage        | EC2-exclusive                       | Can be used with multiple services | Access with or without other services                  |
+| Scaling      | Less auto-scaling, more manual work | Scales automatically               | Unlimited scaling built-in                           |
+| Usage        | EC2-exclusive                       | Can be used with multiple services | Access with or without other services                |
 | Multi-attach | Is possible, but not the focus      | Is a core feature                  |                                                      |
 
 
@@ -26,6 +26,7 @@
 - Check [[Neptune]] --> Serverless graph database
 
 #### Database types
+
 |                   | SQL                                      | NoSQL                                                 |
 | ----------------- | ---------------------------------------- | ----------------------------------------------------- |
 | About             | Relational                               | Not relational                                        |
@@ -36,6 +37,7 @@
 - Different data / workload requirements favor different types
 
 #### Hosting Options
+
 |          | Self Hosted                                   | Managed                             |
 | -------- | --------------------------------------------- | ----------------------------------- |
 | Software | Install && operate database software manually | Let AWS manage                      |
@@ -46,3 +48,5 @@
 #### Database && VPCs
 - Connection between internet requests and [[VPC]]s
 - ![[VPCs and Databases.png|750]]
+
+

@@ -18,6 +18,7 @@
 	- [[NACL]] --> At subnet level
 	- *(Security Groups are preferred)*
 *Security Groups vs NACL*
+
 | About        | Security Group | Network Access Control List |
 | ------------ | ---------------------------------------------------------- | ----------------------------------------------------------------------------- |
 | State        | Stateful: Responses are allowed (if the request is passed) | Stateless: Requests & Responses are separate, need to manually allow response |
@@ -29,7 +30,7 @@
 - **Internet Gateway**
 	- What makes public [[Subnets]] have access to the internet
 ![[Pasted image 20230405131622.png]]
-- **NAT Gateway**
+	- **NAT Gateway**
 	- A Network Address Translation (NAT) service
 	- Instances in a private subnet can connect to the internet
 	- External services cannot initiate a connection with those instances

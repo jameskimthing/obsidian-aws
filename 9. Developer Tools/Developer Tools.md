@@ -1,6 +1,7 @@
 #organize 
 ![[Pasted image 20230405132655.png]]
 # Developer Tools
+- [[Command Line Interface]] --> AWS CLI
 
 ## Development
 - [[Cloud9]] --> Cloud-based IDE

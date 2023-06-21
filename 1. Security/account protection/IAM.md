@@ -1,5 +1,5 @@
 # Identity and Access Management
-![[Pasted image 20230405130212.png]]
+![[_icons/IAM.png]]
 - Web service that helps securely control access to AWS resources, used to control *who* has permissions to *what*
 
 ## About
@@ -23,11 +23,21 @@
 		1. Web-based identity such as Facebook, Google
 		2. IAM support ingeration via OpenID Connect - SAML 2.0 idetity such as Active Directory, LDAP.
 
+### ARNs
+- Amazon Resource Names (ARNs) uniquely identify AWS resources
+- When you need to specify a resource unambiguously across all of AWS, such as in [[IAM]] policies, [[RDS]] tags, and API calls
+*example:*
+```
+arn:partition:service:region:account-id:resource-id
+arn:partition:service:region:account-id:resource-type/resource-id
+arn:partition:service:region:account-id:resource-type:resource-id
+```
+
 ## Notes
 - By default, no permissions are given
 - In AWS you apply the least privilege principle: don’t give more permissions than a user needs
 - When permissions *clash* = Explicit **denies always win** over any allows
 
-![[IAM.png|600]]
+![[1. Security/_assets/IAM.png|600]]
 
 ![[General overview.png|600]]

@@ -9,8 +9,6 @@
 - *Regions* around the world, each containing at least 3 *AZs*, which each contain at leas 1 *Data Center*
 - Check [[Regions, AZs, Data Centers]]
 - Check AWS' [[Global Network]]
-
-#### More AWS Locations
 - Check [[Edge Locations]], which are mainly used for [[Networking Content Delivery]]
 - [[Local Zones, Outposts, Wavelength Zones]]
 
