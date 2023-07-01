@@ -3,6 +3,7 @@
 # Management Governance
 - Managing the cloud
 - [[OpsWorks]] --> A web-based service that provides a graphical user interface (GUI) for managing and configuring applications in the AWS cloud
+- Use [[Tags]] and [[Resource Groups]] to organize resources
 
 ## Managing Multiple AWS Accounts
 - It is possible to have 1 account, and multiple [[IAM]] accounts
@@ -13,15 +14,19 @@
 - [[Organizations]] --> Centralized billing, centralized management, cross-account service configurations && more
 - [[Control Tower]] (new!) --> Creates best-practice multi-account practice for you
 - Share resources via [[RAM]]
+- Each [[IAM]] user can use [[SSO (Now Identity Center)]] for logging in
 
 ## Financial Management
 ![[Financial Management.png]]
-- [[Cost Explorer]]--> View bills (updated daily) and analyze costs with cost management tools
-- [[Budgets]] --> Set budgets, get alarms when threshold exceeded
-- [[Cost and Usage Report]] --> Can receive reports that break down your costs by the hour, day, or month, by product or product resource, or by tags that you define yourself
-*Alternate way to view:*
-- [[Cost Explorer]] --> Visualize costs over time
-- [[Budgets]] --> Alarms on threshold
+
+| Name                                            | Description                                                                                                                                    |
+| ----------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Cost Explorer]]                               | View bills (updated daily) and analyze costs with cost management tools *(visualize costs over time)*                                          |
+| [[Budgets]]                                     | Set budgets, get alarms when threshold exceeded *(alarms on threshold)*                                                                        |
+| [[Cost and Usage Report]]                       | Can receive reports that break down your costs by the hour, day, or month, by product or product resource, or by tags that you define yourself |
+| [[CloudWatch#CloudWatch Alarm\|Billing Alarms]] | Billing alarms using cloudwatch alarms (but not as much features as [[Budgets]])                                                               |
+| [[Organizations]] / [[Control Tower]]           | *Consolidated Billing*                                                                                                                         |
+|                                                 |                                                                                                                                                |
 
 
 ## Infrastructure as Code
@@ -45,15 +50,17 @@
 - Keeping track of your services && applications
 - Allows u to react && fix issues early
 
-## Services
-- [[CloudWatch]] --> *monitoring*
-	- Provides a reliable, scalable, and flexible monitoring solution that you can start using within minutes
-	- No longer need to set up, manage, and scale your own monitoring systems and infrastructure
-- [[CloudTrail]] --> *auditing*
-	- Audits your AWS deployments in the cloud by getting a history of AWS API calls
-- [[XRay]] --> *tracing* (see the flow)
-	- A distributed tracing system that enables you to understand the flow of requests and responses through your application
+### Services
+
+| Name           | Type         | About                                                                                                                   |
+| -------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------- |
+| [[CloudWatch]] | *monitoring* | Provides a reliable, scalable, and flexible monitoring solution that you can start using within minutes                 |
+| [[CloudTrail]] | *auditing*   | Audits your AWS deployments in the cloud by getting a history of AWS API calls                                          |
+| [[XRay]]       | *tracing*    | A distributed tracing system that enables you to understand the flow of requests and responses through your application |
+
+#### Between XRay and CloudWatch
 - [[XRay]] is more for debugging, while [[CloudWatch]] is just for monitoring, feeding its data into various sources
+- [[XRay]] --> "Seeing the flow"
 
 
 ## Disaster Recovery and Prevention

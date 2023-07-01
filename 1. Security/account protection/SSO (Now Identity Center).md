@@ -9,3 +9,5 @@
 - **AWS Directory Service**
 	- Use Active directory for authentication
 	- Helps with connection / migration AD workloads
+- Check [this](https://www.youtube.com/watch?v=4yJp5-jGGNk)
+- Works across whatever non-aws providers

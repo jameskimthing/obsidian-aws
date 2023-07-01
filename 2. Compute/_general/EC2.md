@@ -9,6 +9,7 @@
 - Data such as the base OS and software is stored at either the [[EC2 Instance Store]] or is [[EBS]]-Backed (*default*)
 - [[AMI]] --> Pre-configured [[EC2]] instance
 - check [[EC2 Launch Template]]
+- Check out [[EC2 Auto Scaling]]
 
 #### Connection Options
 - *EC2 Instance Connect* --> Accessible directly from inside the management console
@@ -16,6 +17,7 @@
 - *SSH Client and Key Pair* --> Can connect to a running EC2 instance via any SSH client, as long as you have a valid key pair
 	- The key pair must be created / assigned during instance creation
 	- Need the private key that is created in order to connect with a SSH client
+- [[Systems Manager]] --> A sort of "hub" for managing fleets of servers
 
 #### Types:
 1. *General Purpose* --> Provide a balance of compute, memory and networking resources, and can be used for a variety of diverse workloads

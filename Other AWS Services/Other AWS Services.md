@@ -10,7 +10,7 @@
 	- Check [here](https://www.udemy.com/course/aws-cloud-practitioner-complete-aws-introduction/learn/lecture/33151856#learning-tools) for a list
 
 ## Internet of Things (IoT)
-![[Pasted image 20230405132747.png]]
+![[Internet of Things.png]]
 - Running code on very simple devices, such as fridges
 
 ## Business Applications

@@ -7,5 +7,5 @@
 		- Security
 		- Fault tolerance
 		- Service quotas
-- Provides additional checks via higher-level support plans
+- Provides additional checks via higher-level [[AWS Support#AWS Support Plans|Support Plan]]s
 - Get more info [here](https://aws.amazon.com/premiumsupport/technology/trusted-advisor/)

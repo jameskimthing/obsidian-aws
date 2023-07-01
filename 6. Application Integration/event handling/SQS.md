@@ -1,3 +1,3 @@
 # Simple Queue Service
-![[Pasted image 20230405132118 1.png]]
-![[SQS.png]]
+![[_icons/SQS.png]]
+![[6. Application Integration/_assets/SQS.png]]

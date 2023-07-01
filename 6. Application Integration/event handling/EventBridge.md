@@ -1,3 +1,3 @@
 # EventBridge
-![[Pasted image 20230405132104.png]]
-![[EventBridge.png]]
+![[_icons/EventBridge.png]]
+![[6. Application Integration/_assets/EventBridge.png]]

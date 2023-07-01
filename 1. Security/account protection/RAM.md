@@ -1,5 +1,5 @@
 # Resource Access Manager
-![[Pasted image 20230405130221.png]]
+![[Resource Access Manager.png]]
 - Simply and securely share your AWS resources across multiple accounts
 - Helps you securely share your resources across:
 	- AWS accounts

@@ -1,0 +1,3 @@
+- Check out [[Tags]], too
+- Organizing stuff into groups
+- Can group the tags (tagged resources) into groups

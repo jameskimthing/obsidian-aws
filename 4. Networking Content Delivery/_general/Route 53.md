@@ -1,6 +1,7 @@
 # AWS Route 53
 ![[Pasted image 20230405131409.png]]
 - A managed DNS by AWS
+- Utilizes [[Edge Locations]]
 - **Manage Domains**
 	- Register / transfer domains
 	- Create hosted zones for domains

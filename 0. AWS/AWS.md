@@ -11,6 +11,7 @@
 - Check AWS' [[Global Network]]
 - Check [[Edge Locations]], which are mainly used for [[Networking Content Delivery]]
 - [[Local Zones, Outposts, Wavelength Zones]]
+- [[GovCloud]] --> Regions for very sensitive data
 
 
 ## Best Practices

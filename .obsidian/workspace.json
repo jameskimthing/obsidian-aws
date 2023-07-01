@@ -4,95 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "4e85692b200d7135",
+        "id": "03a258fa61290a06",
         "type": "tabs",
         "children": [
           {
-            "id": "1e383f3440b8749b",
+            "id": "d06313e000aa5f8d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Security/_general/Cognito.md",
+                "file": "3. Management Governance/_general/Resource Groups.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "2b477643efefdabe",
+            "id": "f69013f83c5823cc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "9. Developer Tools/Developer Tools.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ef316648fff37ba7",
+            "id": "d884427df7178c67",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4. Networking Content Delivery/management/Security Group.md",
+                "file": "3. Management Governance/financial management/Cost and Usage Report.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a06145c15bd2d199",
+            "id": "800938e51b3612c7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Compute/_general/EC2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "54d736eca07dfe84",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. Management Governance/_concepts/RTO && RPO.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1a00eae7ae4c1281",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. Compute/_concepts/Containers.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cf824905d0ffd15e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. Management Governance/multiple accounts/Control Tower.md",
+                "file": "3. Management Governance/Management Governance.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -121,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "command line",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -166,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4. Networking Content Delivery/management/Security Group.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "4. Networking Content Delivery/management/Security Group.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4. Networking Content Delivery/management/Security Group.md"
+                "file": "README.md"
               }
             }
           },
@@ -235,53 +199,53 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "ef316648fff37ba7",
+  "active": "f33e553d9433204c",
   "lastOpenFiles": [
-    "docs/0. AWS/AWS.html",
+    "Main.md",
+    "3. Management Governance/multiple accounts/Organizations.md",
+    "3. Management Governance/multiple accounts/Control Tower.md",
+    "3. Management Governance/Management Governance.md",
+    "3. Management Governance/financial management/Cost and Usage Report.md",
+    "_icons/Cost and Usage Report.png",
+    "3. Management Governance/_general/Tags.md",
+    "3. Management Governance/_general/Resource Groups.md",
+    "3. Management Governance/_general/OpsWorks.md",
+    "_icons/OpsWorks.png",
+    "_icons/Networking Content Delivery.png",
+    "0. AWS/beyond aws services/AWS Support.md",
+    "3. Management Governance/_assets/Consolidated Billing.png",
+    "3. Management Governance/financial management/Cost Explorer.md",
+    "_icons/Cost Explorer.png",
+    "_icons/Organization Units.png",
+    "_icons/AWS Organizations.png",
+    "0. AWS/best practices/Trusted Advisor.md",
     "0. AWS/AWS.md",
-    "docs/0. AWS/_general/Accessing AWS Services _ Pricing.html",
+    "_icons/AWS Support.png",
+    "0. AWS/_assets/AWS Support Plans.png",
+    "2. Compute/_general/EC2.md",
+    "2. Compute/_general/AMI.md",
+    "6. Application Integration/api management/API Gateway.md",
+    "4. Networking Content Delivery/management/VPC.md",
+    "4. Networking Content Delivery/management/Subnets.md",
+    "5. Storage _ Database/database/ElastiCache.md",
+    "4. Networking Content Delivery/dynamic scaling _ load balancing/EC2 Auto Scaling.md",
+    "3. Management Governance/monitoring/CloudWatch.md",
+    "4. Networking Content Delivery/Networking Content Delivery.md",
+    "1. Security/Security.md",
     "4. Networking Content Delivery/management/Security Group.md",
-    "0. AWS/_general/Accessing AWS Services _ Pricing.md",
-    "docs/0. AWS/_general/Cloud.html",
     "0. AWS/_general/Cloud.md",
+    "3. Management Governance/service _ workload configuration/Systems Manager.md",
+    "2. Compute/Compute.md",
+    "_icons/Resource Access Manager.png",
+    "docs/0. AWS/AWS.html",
+    "docs/0. AWS/_general/Accessing AWS Services _ Pricing.html",
+    "docs/0. AWS/_general/Cloud.html",
     "docs/0. AWS/_general/Shared Responsibility.html",
     "docs/0. AWS/_general",
-    "0. AWS/_general/Shared Responsibility.md",
     "docs/0. AWS/best practices/Acceptable Use Policy.html",
-    "0. AWS/best practices/Acceptable Use Policy.md",
     "docs/0. AWS/best practices/Trusted Advisor.html",
-    "0. AWS/best practices/Trusted Advisor.md",
     "docs/0. AWS/best practices/Well Architected Tool.html",
-    "0. AWS/best practices/Well Architected Tool.md",
     "docs/0. AWS/best practices/Well-Architected Framework.html",
-    "docs/0. AWS/best practices",
-    "0. AWS/best practices/Well-Architected Framework.md",
-    "docs/0. AWS/beyond aws services/APN.html",
-    "0. AWS/beyond aws services/APN.md",
-    "0. AWS/beyond aws services/AWS Managed Services.md",
-    "0. AWS/beyond aws services/AWS Marketplace.md",
-    "0. AWS/beyond aws services/AWS Professional Services.md",
-    "0. AWS/beyond aws services/AWS Support.md",
-    "0. AWS/infrastructure/Global Network.md",
-    "0. AWS/infrastructure/Local Zones, Outposts, Wavelength Zones.md",
-    "0. AWS/infrastructure/Regions, AZs, Data Centers.md",
-    "1. Security/Security.md",
-    "1. Security/_concepts/SSL.md",
-    "1. Security/_general/ACM.md",
-    "1. Security/_general/Cognito.md",
-    "1. Security/_general/Security Hub.md",
-    "1. Security/account protection/GuardDuty.md",
-    "1. Security/account protection/IAM.md",
-    "1. Security/account protection/RAM.md",
-    "_icons/Backup.png",
-    "_icons/IAM.png",
-    "_icons/Glacier.png",
-    "_icons/Machine Image.png",
-    "_icons/Elastic Load Balancing.png",
-    "_icons/Network Load Balancer.png",
-    "_icons/Application Load Balancer.png",
-    "_icons/Parameter Store.png",
-    "3. Management Governance/_assets/Disaster Recovery Options.png",
-    "_icons/SES.png"
+    "docs/0. AWS/best practices"
   ]
 }

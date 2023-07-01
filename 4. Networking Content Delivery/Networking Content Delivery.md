@@ -1,5 +1,5 @@
 #organize 
-![[Pasted image 20230405131728.png]]
+![[Networking Content Delivery.png]]
 # Networking Content Delivery
 - [[Route 53]] --> AWS-managed *DNS* service
 - [[ACM]] --> For [[SSL]] certificates
