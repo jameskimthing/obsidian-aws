@@ -1,5 +1,5 @@
-# CloudWatch
 ![[CloudWatch.png]]
+# CloudWatch
 - Managed monitoring service
 - Gain system-wide visibility into resource utilization
 
@@ -33,14 +33,14 @@
 #### CloudWatch Dashboards
 - Allow you to create, customize, interact with, and save graphs of AWS resources and custom metrics
 
-#### CloudWatch Logs
 ![[CloudWatch Logs.png]]
+#### CloudWatch Logs
 - Lets you monitor and troubleshoot your systems and applications using your existing system, application, and custom log files
 - Can be used for real time application and system monitoring as well as long term log retention
 - [[CloudTrail]] logs can be sent to *CloudWatch Logs* for real-time monitoring
 
-#### CloudWatch Alarm
 ![[CloudWatch Alarms.png]]
+#### CloudWatch Alarm
 - Can be used to monitor any Amazon CloudWatch metric in your account
 - Can be used to set *billing alarms*
 - **Select a Metric**

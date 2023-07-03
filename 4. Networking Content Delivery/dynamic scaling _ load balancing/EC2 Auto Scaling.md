@@ -1,5 +1,5 @@
-# EC2 Auto Scaling
 ![[EC2 Auto Scaling.png]]
+# EC2 Auto Scaling
 - Can be used to automatically add / remove [[EC2]] instances (based on conditions)
 - Ensures sufficent capacity at all times, without over-provisioning
 

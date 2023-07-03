@@ -1,5 +1,5 @@
-# Security Hub
 ![[_icons/Security Hub.png]]
+# Security Hub
 - Automate AWS security checks and centralize security alerts
 
 - **Consolidate Other Security Services**
@@ -8,7 +8,7 @@
 	- Take action across services && accounts
 	- Build customized actions
 
----
+
 ## Services that Integrate with Security Hub
 #### Services that send findings to Security Hub
 - [[Config]]
@@ -30,4 +30,4 @@
 - [[Trusted Advisor]] --> Automatically performs some predefined checks && offers recommendations
 
 
-![[1. Security/_assets/Security Hub.png]]
+![[Security Hub About.png]]

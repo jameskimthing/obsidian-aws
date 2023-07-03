@@ -1,5 +1,5 @@
-# AWS Route 53
 ![[Route 53.png]]
+# AWS Route 53
 - A managed DNS by AWS
 - Utilizes [[Edge Locations]]
 - **Manage Domains**

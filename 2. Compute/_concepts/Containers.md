@@ -1,5 +1,5 @@
 #concept 
-![[Pasted image 20230405130522.png]]
+![[Containers Concept.png]]
 - Packages of code and its environment
 - Can create so-called *images* which contain container definitions
 	- Containers are then instantiated based on images

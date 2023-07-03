@@ -1,5 +1,5 @@
+![[_icons/AppSync.png]]
 # AppSync
-![[Pasted image 20230405132052.png]]
 - Creates serverless GraphQL and Pub/Sub APIs that simplify application development through a single endpoint to securely query, update, or publish data
 
 #### Usage
@@ -12,4 +12,4 @@
 	- Built-in query optimization & caching
 
 
-![[AppSync.png|900]]
+![[AppSync About.png|900]]

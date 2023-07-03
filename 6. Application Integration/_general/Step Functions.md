@@ -1,5 +1,5 @@
+![[Step Functions.png]]
 # Step Functions
-![[Pasted image 20230405132038.png]]
 - Reliable pre-defined execution sequences
 - **Define Steps**
 	- Define step inputs, outputs, & code to be executed

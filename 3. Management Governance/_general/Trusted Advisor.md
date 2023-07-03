@@ -1,5 +1,5 @@
-# Trusted Advisor
 ![[Trusted Advisor.png]]
+# Trusted Advisor
 -  Automatically performs some predefined checks && offers recommendations
 	- Recommendations that can help improve:
 		- Cost optimization

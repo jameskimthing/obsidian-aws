@@ -1,5 +1,5 @@
-# Compute Optimizer
 ![[Compute Optimizer.png]]
+# Compute Optimizer
 - Helps avoid overprovisioning and underprovisioning four types of AWS resources:
 	- [[EC2]] instance types
 	- [[EBS]] volumes

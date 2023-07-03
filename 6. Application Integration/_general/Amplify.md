@@ -1,5 +1,5 @@
+![[Amplify.png]]
 # AWS Amplify
-![[Pasted image 20230405132029.png]]
 - *Backend as a Service*
 - A complete solution that lets frontend web and mobile developers easily build, ship, and host full-stack applications on AWS
 

@@ -1,5 +1,5 @@
-# CloudFormation
 ![[CloudFormation.png]]
+# CloudFormation
 - Speed up cloud provisioning with infrastructure as code
 - Lets you model, provision, and manage AWS and third-party resources by treating infrastructure as code
 

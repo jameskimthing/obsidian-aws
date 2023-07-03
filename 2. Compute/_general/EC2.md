@@ -1,5 +1,5 @@
-# Elastic Compute Cloud
 ![[EC2.png]]
+# Elastic Compute Cloud
 - Rent a virtual, remote machine
 - Fully configurable, run any kind of workload on the cloud
 - Can use [[VPC]]s alongside [[Security Group]]s for what goes in and out

@@ -1,10 +1,10 @@
+![[_icons/API Gateway.png]]
 # API Gateway
-![[Pasted image 20230405132044.png]]
 - REST API Service
 - Acts as the *front door* for applications to access data, business logic, or functionality from your backend services
 
-## Endpoints
 ![[API Gateway Endpoint.png]]
+## Endpoints
 - Check [herel](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-api-endpoint-types.html)
 - *Edge Optimized API Endpoint* --> **(Default)** utilizes the aws [[Edge Locations]]
 	- Best for geographically distributed clients
@@ -34,4 +34,4 @@
 	- Deploy with stages (versions)
 
 
-![[API Gateway.png|900]]
+![[API Gateway About.png|900]]

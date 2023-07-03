@@ -1,5 +1,5 @@
-# XRay
 ![[XRay.png]]
+# XRay
 - Allows you to follow data and traffic requests as it travels between different applications and services
 
 - Provides a complete view of requests as they travel through your application

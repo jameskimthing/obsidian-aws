@@ -1,5 +1,5 @@
-# Launch Wizard
 ![[Launch Wizard.png]]
+# Launch Wizard
 - Offers a guided way of sizing, configuring, and deploying AWS resources for third party applications
 	- Such as: Microsoft SQL Server Always On and HANA based SAP systems
 	- Without the need to manually identify and provision individual AWS resources

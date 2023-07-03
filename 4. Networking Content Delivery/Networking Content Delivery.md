@@ -16,6 +16,7 @@
 | ![[CloudMap.png]] | [[CloudMap]] | Define custom names for application resources |
 | ![[VPC.png]] | [[VPC]] | To manage own network in the cloud |
 | ![[ACM.png]] | [[ACM]] | For [[SSL]] certs |
+| ![[Direct Connect.png]] | [[Direct Connect]] | Connect directly between services, NOT with the internet, but AWS's own provisioned connection |
 
 ## Delivery
 - [[Edge Locations]] --> Locations around the world that cache content
@@ -25,6 +26,7 @@
 - *CloudFront* vs *Global Accelerator*
 	- [[CloudFront]] --> [[Edge Locations]] to *cache* content
 	- [[Global Accelerator]] --> Find the *optimal pathway*
+- Check out the [[Route Table]]
 
 | Icon | Name | Description |
 | --- | --- | --- |

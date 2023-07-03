@@ -1,3 +1,6 @@
-# EventBridge
 ![[_icons/EventBridge.png]]
-![[6. Application Integration/_assets/EventBridge.png]]
+# EventBridge
+- Event-driven architecture
+
+
+![[EventBridge About.png]]

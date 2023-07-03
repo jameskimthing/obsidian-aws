@@ -1,5 +1,5 @@
-# Elastic Load Balancing
 ![[ELB.png]]
+# Elastic Load Balancing
 - Service to distribute load (e.g. incoming requests) evenly across available instances
 - Ensures that all available instances are utilized equally
 

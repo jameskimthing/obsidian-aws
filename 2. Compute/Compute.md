@@ -1,5 +1,5 @@
 #organize 
-![[Pasted image 20230405130910.png]]
+![[Compute.png]]
 # Compute
 - [[Compute Optimizer]] --> Helps avoid overprovisioning and underprovisioning compute resources
 - [[Systems Manager]] --> To gain operational insights into AWS and on-premise resources

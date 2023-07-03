@@ -8,14 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7b935af5048cc32d",
+            "id": "7373dc40214420ed",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "9. Developer Tools/Developer Tools.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "feda12e5c1176d29",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "_icons/Developer Tools.png"
               }
             }
           }
@@ -48,7 +58,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nacl",
+                "query": "cloudhsm",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "9. Developer Tools/Developer Tools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "9. Developer Tools/Developer Tools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "9. Developer Tools/Developer Tools.md"
               }
             }
           },
@@ -162,53 +172,52 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "7b935af5048cc32d",
+  "active": "7373dc40214420ed",
   "lastOpenFiles": [
+    "_icons/Developer Tools.png",
+    "9. Developer Tools/Developer Tools.md",
+    "7. Data Lakes _ Analytics/data movement/MSK.md",
+    "7. Data Lakes _ Analytics/DataLakes _ Analytics.md",
+    "_icons/Pasted image 20230405132323.png",
+    "6. Application Integration/Application Integration.md",
+    "_icons/Application Integration.png",
+    "_icons/Pasted image 20230405132118.png",
+    "5. Storage _ Database/Storage _ Database.md",
+    "_icons/Pasted image 20230405131805.png",
+    "4. Networking Content Delivery/management/VPC.md",
+    "_icons/Pasted image 20230405131653.png",
+    "4. Networking Content Delivery/Networking Content Delivery.md",
+    "2. Compute/Compute.md",
+    "_icons/Compute.png",
+    "_icons/Pasted image 20230405130640.png",
     "1. Security/Security.md",
-    "README.md",
-    "1. Security/_concepts/ARN.md",
-    "1. Security/_concepts/SSL.md",
-    "1. Security/_general/ACM.md",
-    "1. Security/_general/Cognito.md",
-    "1. Security/_general/Security Hub.md",
-    "1. Security/_general/Shared Responsibility.md",
-    "1. Security/account protection/GuardDuty.md",
-    "1. Security/account protection/IAM.md",
-    "1. Security/account protection/Identity Center.md",
-    "1. Security/account protection/RAM.md",
-    "1. Security/application protection/Detective.md",
-    "1. Security/application protection/Inspector.md",
-    "1. Security/compliance/Artifact.md",
-    "1. Security/compliance/Audit Manager.md",
+    "_icons/Pasted image 20230405130408.png",
     "1. Security/data protection/CloudHSM.md",
-    "1. Security/data protection/KMS.md",
-    "1. Security/data protection/Macie.md",
-    "1. Security/data protection/Secrets Manager.md",
-    "1. Security/network protection/Firewall Manager.md",
-    "1. Security/network protection/Network Firewall.md",
-    "1. Security/network protection/Shield.md",
+    "_icons/Pasted image 20230405130336.png",
+    "1. Security/_general/Security Hub.md",
+    "1. Security/_general/ACM.md",
+    "10. Other AWS Services/business applications/SES.md",
+    "10. Other AWS Services/machine learning/SageMaker.md",
+    "10. Other AWS Services/business applications/Support.md",
+    "10. Other AWS Services/business applications/Professional Services.md",
+    "10. Other AWS Services/business applications/Marketplace.md",
+    "10. Other AWS Services/business applications/Managed Services.md",
+    "10. Other AWS Services/business applications/Connect.md",
+    "10. Other AWS Services/business applications/APN.md",
+    "9. Developer Tools/integration pipeline/CodeStar.md",
+    "9. Developer Tools/integration pipeline/CodePipeline.md",
+    "9. Developer Tools/improving code _ application environments/DevOps Guru.md",
+    "9. Developer Tools/improving code _ application environments/CodeGuru.md",
+    "9. Developer Tools/development/CodeDeploy.md",
     "docs/1. Security/network protection/WAF.html",
     "docs/1. Security/network protection",
     "docs/1. Security",
-    "1. Security/network protection/WAF.md",
-    "2. Compute/Compute.md",
-    "2. Compute/_concepts/Containers.md",
     "docs/2. Compute/more compute locations/Local Zones.html",
     "docs/2. Compute/more compute locations/Wavelength Zones.html",
     "docs/2. Compute/more compute locations/Outposts.html",
     "docs/2. Compute/more compute locations",
     "docs/2. Compute",
     "docs/3. Management Governance/workload configuration/AppConfig.html",
-    "docs/3. Management Governance/workload configuration/Config.html",
-    "0. AWS/_assets/Global Network.png",
-    "10. Other AWS Services/_assets/AWS Support Plans.png",
-    "_icons/Connect.png",
-    "_icons/Support.png",
-    "_icons/Managed Services.png",
-    "_icons/Professional Services.png",
-    "_icons/Pasted image 20230405132118.png",
-    "_icons/Pasted image 20230405131827.png",
-    "_icons/Pasted image 20230405130115.png",
-    "_icons/Pasted image 20230405131653.png"
+    "docs/3. Management Governance/workload configuration/Config.html"
   ]
 }

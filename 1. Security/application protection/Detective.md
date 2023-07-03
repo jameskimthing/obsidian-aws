@@ -1,5 +1,5 @@
-# Detective
 ![[Detective.png]]
+# Detective
 - Makes it easy to analyze, investigate, and quickly identify the root cause of potential security issues or suspicious activities
 - Simplifies the investigative process and helps security teams conduct faster and more effective investigations
 

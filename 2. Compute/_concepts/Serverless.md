@@ -1,5 +1,5 @@
 #concept
-![[Pasted image 20230405130540.png]]
+![[Serverless Concept.png]]
 - A cloud-native development model that allows developers to build and run applications without having to manage server
 - A method of providing backend services on an as-used basis
 

@@ -1,5 +1,5 @@
+![[Route Table.png]]
 # Route Table
-![[Pasted image 20230405131542.png]]
 - Contains a set of rules, called *routes*, that determine where network traffic from your subnet or gateway is directed
 
 > A route table is like a map for a computer, it tells the computer where to send different kinds of information.

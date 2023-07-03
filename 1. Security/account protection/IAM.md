@@ -1,5 +1,5 @@
-# Identity and Access Management
 ![[_icons/IAM.png]]
+# Identity and Access Management
 - Web service that helps securely control access to AWS resources, used to control *who* has permissions to *what*
 - Check [[ARN]]
 
@@ -29,6 +29,6 @@
 - In AWS you apply the least privilege principle: don’t give more permissions than a user needs
 - When permissions *clash* = Explicit **denies always win** over any allows
 
-![[1. Security/_assets/IAM.png|600]]
+![[IAM About.png|600]]
 
-![[General overview.png|600]]
+![[IAM General overview.png|600]]

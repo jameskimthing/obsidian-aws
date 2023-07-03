@@ -1,5 +1,5 @@
+![[DynamoDB.png]]
 # DynamoDB
-![[Pasted image 20230405131813.png]]
 - Check [[Key-Value Stores]]
 - A fully managed NoSQL key-value database
 - **Create Tables**
@@ -12,7 +12,7 @@
 
 #### Other Features
 - **Streams**
-	- ![[Pasted image 20230405131827.png]]
+	- ![[DynamoDB Streams.png]]
 	- Time-ordered series of database item changes
 	- Subscribe to process item changes
 - **Global Tables**
@@ -20,7 +20,9 @@
 	- High availability thanks to automatic replication
 	- Great performance thanks to global reach
 - **DAX**
-	- ![[Pasted image 20230405131838.png]]
+	- ![[DynamoDB DAX.png]]
 	- *DynamoDB Accelerator*
 	- Managed in-memory [[Caching]] for *DynamoDB*
 	- Accelerates database queries
+
+

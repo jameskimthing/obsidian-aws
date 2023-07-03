@@ -38,6 +38,14 @@
 
 
 #### VPC Endpoint && AWS Privatelink
+- Establish connectivity between [[VPC]]s and AWS services without exposing data to the internet
+- Check [here](https://stackoverflow.com/questions/66726225/aws-private-link-vs-vpc-endpoint) for more info
+
+| Icon | Name | Description |
+| --- | --- | --- |
+| ![[VPC Endpoint.png]] | **VPC Endpoint** | The entry point in ur VPC that enables u to connect privately to a service |
+| ![[PrivateLink.png]] | **PrivateLink** | A technology that provides private connectivity between VPCs and services |
+
 
 ![[Security Group, NACL.png]]
 

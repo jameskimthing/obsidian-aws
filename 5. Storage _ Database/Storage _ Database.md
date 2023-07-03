@@ -54,5 +54,10 @@
 | ![[ElastiCache.png]] | [[ElastiCache]] | Caching. AWS version of redis |
 | ![[DMS.png]] | [[DMS]] | Database migration service |
 | ![[Neptune.png]] | [[Neptune]] | Serverless graph database |
+| ![[Aurora.png]] | [[Aurora]] | Amazon's own SQL database (engine) |
+| ![[DynamoDB.png]] | [[DynamoDB]] | AWS' key-value store |
+| ![[Neptune.png]] | [[Neptune]] | [[Serverless]] graph database |
+| ![[RDS.png]] | [[RDS]] | Relational database. Can use engines such as MySQL, PostgreSQL, or [[Aurora]] |
+|  |  |  |
 
 

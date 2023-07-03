@@ -1,5 +1,5 @@
 #organize 
-![[Pasted image 20230405130505.png]]
+![[Security.png]]
 # Security
 - Securing your AWS account, services && application
 - [[Security Hub]] --> Important!

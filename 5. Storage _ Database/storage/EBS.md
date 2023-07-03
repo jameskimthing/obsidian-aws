@@ -1,5 +1,5 @@
-# Elastic Block Store
 ![[EBS.png]]
+# Elastic Block Store
 - Attach a (virtual) **hard drive** to an [[EC2]] instance (**Exclusively for EC2 only**)
 	- Multiple volumes can be added to at the same instance
 	- Can be formatted and structured as needed (via the command line / code from inside the instance)

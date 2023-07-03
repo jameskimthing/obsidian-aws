@@ -1,5 +1,5 @@
-# CloudMap
 ![[CloudMap.png]]
+# CloudMap
 - A cloud resource discovery service
 - Can define custom names for your application resources
 	- It maintains the updated location of these dynamically changing resources

@@ -5,6 +5,7 @@
 - Check [here](https://aws.amazon.com/big-data/datalakes-and-analytics/)
 - Key data lake aws service: [[S3]] && [[Lake Formation]]
 - Key data warehouse aws service: [[Redshift]]
+- 
 
 ## Data
 
@@ -29,6 +30,7 @@
 | ![[Redshift.png]] | [[Redshift]] | Data from [[EMR]] comes here (is a data warehouse) |
 | ![[Athena.png]] | [[Athena]] | Run SQL queries on data stored in [[Redshift]] |
 | ![[QuickSight.png]] | [[QuickSight]] | Create interactive visualizations to gain insight from the data |
+| ![[OpenSearch Service.png]] | [[OpenSearch Service]] | Real time searching, monitoring, analysis of business and operational data |
 
 
 ## Data Movement

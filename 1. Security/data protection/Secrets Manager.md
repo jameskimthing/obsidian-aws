@@ -1,7 +1,7 @@
-# AWS Secrets Manager
 ![[Secrets Manager.png]]
+# AWS Secrets Manager
 - Securely manage secret parameter values
-- Similar to [[Parameter Store]], such that is stores values, but focuses on values that must NOT be exposed
+- Similar to [[Systems Manager#Parameter Store|Parameter Store]], such that is stores values, but focuses on values that must NOT be exposed
 
 - **Manage Secrets**
 	- Securely store secret values

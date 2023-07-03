@@ -1,5 +1,5 @@
-# Elastic Container Registry
 ![[ECR.png]]
+# Elastic Container Registry
 - Manages, stores, compresses, secures, and controls access to [[Containers]] images
 - Alternatively, can use [Docker Hub](https://hub.docker.com/)
 

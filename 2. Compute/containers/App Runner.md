@@ -1,6 +1,6 @@
-# App Runner
 ![[_icons/App Runner.png]]
+# App Runner
 - A service that simplifies the process of deploying containers
 - Uses [[ECS]] & [[Fargate]] under the hood
 
-![[2. Compute/_assets/App Runner.png]]
+![[App Runner About.png]]
