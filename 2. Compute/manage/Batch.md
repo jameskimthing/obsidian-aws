@@ -1,5 +1,5 @@
 # AWS Batch
-![[Pasted image 20230405130847.png]]
+![[Batch.png]]
 - Efficiently runs hundreds of thousands of batch and ML computing jobs
 - White optimizing compute resources
 - Used, so you can focus on analyzing results and solving problems

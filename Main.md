@@ -1,7 +1,6 @@
 These are my notes I used when studying for the AWS certification exam, the HTML version is made with the [Webpage HTML export](https://github.com/KosmosisDire/obsidian-webpage-export) plugin by *Nathan George*
 
 ## Table of Contents:
-0. [[AWS]]
 1. [[Security]]
 2. [[Compute]]
 3. [[Management Governance]]

@@ -1,5 +1,5 @@
 # Serverless Functions
-![[Pasted image 20230405130904.png]]
+![[Lambda.png]]
 - Main [[Serverless]] service
 - Can perform tasks in response to events
 - Allows you to focus on the code, and not the environment

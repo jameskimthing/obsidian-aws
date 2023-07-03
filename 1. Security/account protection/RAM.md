@@ -1,5 +1,5 @@
 # Resource Access Manager
-![[Resource Access Manager.png]]
+![[_icons/RAM.png]]
 - Simply and securely share your AWS resources across multiple accounts
 - Helps you securely share your resources across:
 	- AWS accounts
@@ -7,5 +7,5 @@
 	- With [[IAM]] roles and users for supported resource types
 - e.g. Create a [[VPC]] and share with other accounts
 
-![[RAM.png]]
+![[1. Security/_assets/RAM.png]]
 

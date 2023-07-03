@@ -1,5 +1,5 @@
 # AWS Certificate Manager
-![[Pasted image 20230405130059.png]]
+![[ACM.png]]
 - **Request Certificates**
 	- Request new [[SSL]] certificates
 	- Issued by AWS, free to use for AWS servcices

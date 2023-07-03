@@ -1,5 +1,5 @@
+![[CloudFront.png]]
 # CloudFront
-![[Pasted image 20230405131414.png]]
 - Uses [[Edge Locations]]
 - **Manage Content Origings**
 	- Create a distribution connected to content sources

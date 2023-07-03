@@ -1,5 +1,5 @@
+![[ElastiCache.png]]
 # ElastiCache
-![[Pasted image 20230405131847.png]]
 - A fully managed in-memory [[Caching]] database
 - Choose the following:
 	- **Database Engine**

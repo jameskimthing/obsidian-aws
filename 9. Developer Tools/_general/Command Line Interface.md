@@ -4,5 +4,5 @@
 
 - **AWS CLI v2** --> offers several new features including:
 	- Improved installers
-	- New configuration options such as AWS IAM Identity Center (successor to AWS [[SSO (Now Identity Center)]])
+	- New configuration options such as AWS IAM Identity Center (successor to AWS [[Identity Center]])
 	- Various interactive features. 

@@ -1,5 +1,5 @@
 # Macie
-![[Pasted image 20230405130359.png]]
+![[Macie.png]]
 - Discover data protection issues
 - A security service that uses machine learning to automatically discover, classify, and protect sensitive data in an organization's data stores
 

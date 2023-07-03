@@ -1,5 +1,5 @@
 # Inspector
-![[Pasted image 20230405130256.png]]
+![[Inspector.png]]
 - An automated vulnerability management service that:
 	- Continually scans AWS workloads for software vulnerabilities and unintended network exposure
 

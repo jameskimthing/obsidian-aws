@@ -1,5 +1,5 @@
 # XRay
-![[Pasted image 20230405131204.png]]
+![[XRay.png]]
 - Allows you to follow data and traffic requests as it travels between different applications and services
 
 - Provides a complete view of requests as they travel through your application
@@ -21,4 +21,4 @@
 	- View traffic flow across applications / services
 	- Combine with other monitoring tools
 
-![[X-Ray.png]]
+![[X-Ray About.png]]

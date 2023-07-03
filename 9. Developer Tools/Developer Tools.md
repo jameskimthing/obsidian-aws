@@ -4,18 +4,28 @@
 - [[Command Line Interface]] --> AWS CLI
 
 ## Development
-- [[Cloud9]] --> Cloud-based IDE
-- [[CodeCommit]] --> AWS' Git repository (similar to [github](https://github.com))
-- [[CodeBuild]] --> Development code execution environment
-	- Run automated tests
-	- Build application
-- [[CodeDeploy]] --> Deploy code to selected services
-- [[CodeArtifact]] --> For storing Java/Python/NodeJS/.NET library packages (often called "dependencies")
+
+| Icon | Name | Description |
+| --- | --- | --- |
+| ![[Cloud9.png]] | [[Cloud9]] | Cloud-based IDE |
+| ![[CodeCommit.png]] | [[CodeCommit]] | AWS' git repository (AWs version github) |
+| ![[CodeBuild.png]] | [[CodeBuild]] | - Development code execution environment<br> - Run automated test<br> - Build application |
+| ![[CodeDeploy.png]] | [[CodeDeploy]] | Deploy code to selected services |
+| ![[CodeArtifact.png]] | [[CodeArtifact]] | Storing Java/Python/Node/.NET library packages (dependencies) |
+
 
 ## Integration Pipeline
- - [[CodePipeline]] --> Integrates services with other services, to simplify && automate workflow
- - [[CodeStar]] --> Just a simplified version of [[CodePipeline]], with pre-defined templates
+
+| Icon | Name | Description |
+| --- | --- | --- |
+| ![[Code Pipeline.png]] | [[CodePipeline]] | Integrates servives with other services (simplofy && automate workflow) |
+| ![[CodeStar.png]] | [[CodeStar]] | Simplified version of [[CodePipeline]], with pre-defined templates |
+
 
 ## Improving Code && Application Environments
-- [[CodeGuru]] --> ML-bases code analysis && recommendations
-- [[DevOps Guru]] --> ML-based analysis of running applications
+
+| Icon | Name | Description |
+| --- | --- | --- |
+| ![[CodeGuru.png]] | [[CodeGuru]] | ML-based code analysis && recommendations |
+| ![[DevOps Guru.png]] | [[DevOps Guru]] | ML-based analysis of running applications |
+

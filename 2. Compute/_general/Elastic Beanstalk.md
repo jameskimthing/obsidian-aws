@@ -1,5 +1,5 @@
 # Elastic Beanstalk
-![[Pasted image 20230405130623.png]]
+![[Elastic Beanstalk.png]]
 - Is one layer of abstraction away from the [[EC2]] layer
 - Will setup an *environment* for you that can contain:
 	- A number of [[EC2]] instances

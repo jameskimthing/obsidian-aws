@@ -1,5 +1,5 @@
-# Centralized Backup Management
 ![[Backup.png]]
+# Centralized Backup Management
 - **Plan**
 	- Use template or create custom
 	- Set frequency, retention period, etc...

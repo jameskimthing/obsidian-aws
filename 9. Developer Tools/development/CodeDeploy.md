@@ -1,5 +1,5 @@
+![[CodeDeploy.png]]
 # CodeDeploy
-![[Pasted image 20230405132603.png]]
 - A fully managed deployment service that automates software deployments to various compute services, such as:
 	- An [[EC2]] instance
 	- [[ECS]]

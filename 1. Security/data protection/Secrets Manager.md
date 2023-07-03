@@ -1,5 +1,5 @@
 # AWS Secrets Manager
-![[Pasted image 20230405130410.png]]
+![[Secrets Manager.png]]
 - Securely manage secret parameter values
 - Similar to [[Parameter Store]], such that is stores values, but focuses on values that must NOT be exposed
 

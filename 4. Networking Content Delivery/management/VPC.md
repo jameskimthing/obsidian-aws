@@ -1,5 +1,5 @@
+![[VPC.png]]
 # Virtual Private Cloud
-![[Pasted image 20230405131606.png]]
 - Used to manage your own network in the cloud
 - Resources are grouped and organized in customer-managed networks
 - Has *at least*:
@@ -24,25 +24,20 @@
 | State        | Stateful: Responses are allowed (if the request is passed) | Stateless: Requests & Responses are separate, need to manually allow response |
 | Rules        | Supports **allow** rules only                              | Supports **allow && deny** rules                                              |
 
-#### Internet Connection
+#### Connection
 - for with internal / only with own services, check [[Direct Connect]]
-![[Pasted image 20230405131614.png]]
-- **Internet Gateway**
-	- What makes public [[Subnets]] have access to the internet
-![[Pasted image 20230405131622.png]]
-	- **NAT Gateway**
-	- A Network Address Translation (NAT) service
-	- Instances in a private subnet can connect to the internet
-	- External services cannot initiate a connection with those instances
 
-#### Connection between VPCs
-![[Pasted image 20230405131635.png]]
-- **VPC Peering:** Connecting 2 *VPC*s
-![[Pasted image 20230405131656.png]]
-- **Transit Gateway:** Connecting more than 2 *VPC*s
+| Icon                      | Name             | Description                                                                                                                                                                 |
+| ------------------------- | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![[Internet Gateway.png]] | Internet Gateway | What makes public [[Subnets]] have access to the internet                                                                                                                   |
+| ![[NAT Gateway.png]]      | NAT Gateway      | A Network Address Translation service <br> Instances in a private subnet can connect to the internet <br> External services cannot initiate connection with those instances |
+| ![[VPC Peering.png]]      | VPC Peering      | Conecting 2 [[VPC]]s                                                                                                                                                        |
+| ![[Transit Gateway.png]]  | Transit Gateway  | Connecting more than 2 [[VPC]]s                                                                                                                                             |
+|                           |                  |                                                                                                                                                                             |
+
+
 
 #### VPC Endpoint && AWS Privatelink
-
 
 ![[Security Group, NACL.png]]
 

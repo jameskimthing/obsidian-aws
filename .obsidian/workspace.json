@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "03a258fa61290a06",
+        "id": "f5f881abb5ec1bd6",
         "type": "tabs",
         "children": [
           {
-            "id": "d06313e000aa5f8d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. Management Governance/_general/Resource Groups.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f69013f83c5823cc",
+            "id": "7b935af5048cc32d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,33 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "d884427df7178c67",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. Management Governance/financial management/Cost and Usage Report.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "800938e51b3612c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. Management Governance/Management Governance.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -85,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "nacl",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279.5
+    "width": 245.5
   },
   "right": {
     "id": "3095b0cd86e21fdc",
@@ -199,53 +162,53 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "f33e553d9433204c",
+  "active": "7b935af5048cc32d",
   "lastOpenFiles": [
-    "Main.md",
-    "3. Management Governance/multiple accounts/Organizations.md",
-    "3. Management Governance/multiple accounts/Control Tower.md",
-    "3. Management Governance/Management Governance.md",
-    "3. Management Governance/financial management/Cost and Usage Report.md",
-    "_icons/Cost and Usage Report.png",
-    "3. Management Governance/_general/Tags.md",
-    "3. Management Governance/_general/Resource Groups.md",
-    "3. Management Governance/_general/OpsWorks.md",
-    "_icons/OpsWorks.png",
-    "_icons/Networking Content Delivery.png",
-    "0. AWS/beyond aws services/AWS Support.md",
-    "3. Management Governance/_assets/Consolidated Billing.png",
-    "3. Management Governance/financial management/Cost Explorer.md",
-    "_icons/Cost Explorer.png",
-    "_icons/Organization Units.png",
-    "_icons/AWS Organizations.png",
-    "0. AWS/best practices/Trusted Advisor.md",
-    "0. AWS/AWS.md",
-    "_icons/AWS Support.png",
-    "0. AWS/_assets/AWS Support Plans.png",
-    "2. Compute/_general/EC2.md",
-    "2. Compute/_general/AMI.md",
-    "6. Application Integration/api management/API Gateway.md",
-    "4. Networking Content Delivery/management/VPC.md",
-    "4. Networking Content Delivery/management/Subnets.md",
-    "5. Storage _ Database/database/ElastiCache.md",
-    "4. Networking Content Delivery/dynamic scaling _ load balancing/EC2 Auto Scaling.md",
-    "3. Management Governance/monitoring/CloudWatch.md",
-    "4. Networking Content Delivery/Networking Content Delivery.md",
     "1. Security/Security.md",
-    "4. Networking Content Delivery/management/Security Group.md",
-    "0. AWS/_general/Cloud.md",
-    "3. Management Governance/service _ workload configuration/Systems Manager.md",
+    "README.md",
+    "1. Security/_concepts/ARN.md",
+    "1. Security/_concepts/SSL.md",
+    "1. Security/_general/ACM.md",
+    "1. Security/_general/Cognito.md",
+    "1. Security/_general/Security Hub.md",
+    "1. Security/_general/Shared Responsibility.md",
+    "1. Security/account protection/GuardDuty.md",
+    "1. Security/account protection/IAM.md",
+    "1. Security/account protection/Identity Center.md",
+    "1. Security/account protection/RAM.md",
+    "1. Security/application protection/Detective.md",
+    "1. Security/application protection/Inspector.md",
+    "1. Security/compliance/Artifact.md",
+    "1. Security/compliance/Audit Manager.md",
+    "1. Security/data protection/CloudHSM.md",
+    "1. Security/data protection/KMS.md",
+    "1. Security/data protection/Macie.md",
+    "1. Security/data protection/Secrets Manager.md",
+    "1. Security/network protection/Firewall Manager.md",
+    "1. Security/network protection/Network Firewall.md",
+    "1. Security/network protection/Shield.md",
+    "docs/1. Security/network protection/WAF.html",
+    "docs/1. Security/network protection",
+    "docs/1. Security",
+    "1. Security/network protection/WAF.md",
     "2. Compute/Compute.md",
-    "_icons/Resource Access Manager.png",
-    "docs/0. AWS/AWS.html",
-    "docs/0. AWS/_general/Accessing AWS Services _ Pricing.html",
-    "docs/0. AWS/_general/Cloud.html",
-    "docs/0. AWS/_general/Shared Responsibility.html",
-    "docs/0. AWS/_general",
-    "docs/0. AWS/best practices/Acceptable Use Policy.html",
-    "docs/0. AWS/best practices/Trusted Advisor.html",
-    "docs/0. AWS/best practices/Well Architected Tool.html",
-    "docs/0. AWS/best practices/Well-Architected Framework.html",
-    "docs/0. AWS/best practices"
+    "2. Compute/_concepts/Containers.md",
+    "docs/2. Compute/more compute locations/Local Zones.html",
+    "docs/2. Compute/more compute locations/Wavelength Zones.html",
+    "docs/2. Compute/more compute locations/Outposts.html",
+    "docs/2. Compute/more compute locations",
+    "docs/2. Compute",
+    "docs/3. Management Governance/workload configuration/AppConfig.html",
+    "docs/3. Management Governance/workload configuration/Config.html",
+    "0. AWS/_assets/Global Network.png",
+    "10. Other AWS Services/_assets/AWS Support Plans.png",
+    "_icons/Connect.png",
+    "_icons/Support.png",
+    "_icons/Managed Services.png",
+    "_icons/Professional Services.png",
+    "_icons/Pasted image 20230405132118.png",
+    "_icons/Pasted image 20230405131827.png",
+    "_icons/Pasted image 20230405130115.png",
+    "_icons/Pasted image 20230405131653.png"
   ]
 }

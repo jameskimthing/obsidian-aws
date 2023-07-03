@@ -1,5 +1,5 @@
 # Detective
-![[Pasted image 20230405130245.png]]
+![[Detective.png]]
 - Makes it easy to analyze, investigate, and quickly identify the root cause of potential security issues or suspicious activities
 - Simplifies the investigative process and helps security teams conduct faster and more effective investigations
 

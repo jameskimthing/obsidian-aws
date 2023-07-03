@@ -1,5 +1,5 @@
+![[Code Pipeline.png]]
 # CodePipeline
-![[Pasted image 20230405132635.png]]
 - A fully managed [[CI CD]] pipeline service that helps you automate your release pipelines for fast and reliable application and infrastructure updates
 - Just combines the other Code services
 - **Define Stages**
@@ -11,4 +11,4 @@
 	- Monitor && retry pipeline executions
 - [[CodeStar]] --> Simplified version of *CodePipeline*
 
-![[CodePipeline.png]]
+![[CodePipeline About.png]]

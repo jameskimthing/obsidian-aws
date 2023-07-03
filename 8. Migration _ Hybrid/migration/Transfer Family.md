@@ -1,5 +1,5 @@
+![[Transfer Family.png]]
 # Transfer Family
-![[Pasted image 20230405132514.png]]
 - A secure transfer service that enables you to transfer files into and out of AWS storage services
 - Easily manage and share data with simple, secure, and scalable file transfers
 - AWS Transfer Family supports transferring data over the following protocols:

@@ -1,5 +1,5 @@
 # CloudHSM
-![[Pasted image 20230405130337.png]]
+![[_icons/CloudHSM.png]]
 - Helps you meet corporate, contractual, and regulatory compliance requirements for data security
 
-![[CloudHSM.png]]
+![[1. Security/_assets/CloudHSM.png]]

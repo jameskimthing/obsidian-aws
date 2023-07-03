@@ -1,5 +1,5 @@
 # Shield
-![[Pasted image 20230405130450.png]]
+![[Shield.png]]
 - A managed DDoS protection service that safeguards applications running on AWS
 
 - **AWS Shield Standard**

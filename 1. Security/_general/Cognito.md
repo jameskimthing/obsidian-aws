@@ -1,5 +1,5 @@
 # AWS Cognito
-![[Pasted image 20230405130117.png]]
+![[Cognito.png]]
 - Assigns *temporary* [[IAM]] permissions to users
 - Add user sign-up and sign-in features and control access to your web and mobile applications
 - Provides an identity store that:

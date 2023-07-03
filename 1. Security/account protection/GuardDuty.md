@@ -1,5 +1,5 @@
 # GuardDuty
-![[Pasted image 20230405130144.png]]
+![[GuardDuty.png]]
 - A threat detection service that:
 	- Continuously monitors your AWS accounts and workloads for malicious activity
 	- Delivers detailed security findings for visibility and remediation

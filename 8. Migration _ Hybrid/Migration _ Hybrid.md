@@ -19,20 +19,29 @@
 	- **Retiring** --> The process of removing applications that are no longer needed
 
 
+![[Migration.png]]
 ## Migration
-![[Pasted image 20230405132520.png]]
-- [[Migration Hub]] --> Track application migration process in a single location
-- [[Application Migration Service]] --> Automate server application migration (agent software analyzes + replicates system) 
-- [[DMS]] --> Automated database migration
-- [[DataSync]] --> Simplify and accelerate secure data migrations
-- [[Transfer Family]] --> A secure transfer service that enables you to transfer files into and out of AWS storage services
-- [[Snow Family]] --> Physical devices for moving data and / or performing compute tasks (at the edge)
+
+| Icon | Name | Description |
+| --- | --- | --- |
+| ![[Migration Hub.png]] | [[Migration Hub]] | Track application migration process in a single location |
+| ![[_icons/Application Migration Service.png]] | [[Application Migration Service]] | Automate server application migration (agent software analyzes + replicates system) |
+| ![[DataSync.png]] | [[DataSync]] | Simplify and accelerate secure data migrations (better for transfer between AWS and on premises) |
+| ![[Transfer Family.png]] | [[Transfer Family]] | Enables user to transfer files into and out of AWS storage services |
+| ![[Snowcone.png]] | [[Snow Family]] | Physical Devices for moving data and / or performing compute tasks at the edge |
+| ![[DMS.png]] | [[DMS]] | Automated database migration |
 
 
 ## Hybrid Cloud Computing
-- [[Outposts]] --> Add AWS to on-premises
-- [[Storage Gateway]] --> Interface for enabling on-premises workloads to use cloud storage
-- [[Snow Family]] --> Portable devices, usable for data migration / edge computing
-- [[DataSync]] && [[Transfer Family]] --> Service for syncing data between cloud & on premises
-- [[ECS Anywhere]], [[EKS Anywhere]] --> Tooling & APIs for running [[ECS]] / [[EKS]] on local infrastructure
-- [[Systems Manager]] --> Manage large-scale server fleets ([[EC2]] && local), parameters, incidents, && more
+- Having both AWS and local on-premises
+
+| Icon | Name | Description |
+| --- | --- | --- |
+| ![[Outposts.png]] | [[Outposts]] | Add AWS to on-premises |
+| ![[Storage Gateway.png]] | [[Storage Gateway]] | Interface for enabling on-premises workloads to use cloud storage |
+| ![[DataSync.png]] | [[DataSync]] | Simplify and accelerate secure data migrations (better for transfer between AWS and on premises) |
+| ![[Transfer Family.png]] | [[Transfer Family]] | Enables user to transfer files into and out of AWS storage services |
+| ![[ECS Anywhere.png]] | [[ECS Anywhere]] | Tooling && APIs for running [[ECS]] on local infrastructure |
+| ![[EKS Anywhere.png]] | [[EKS Anywhere]] | Tooling && APIs for running [[EKS]] on local infrastructure |
+| ![[Systems Manager.png]] | [[Systems Manager]] | Manage large-scale server fleets (including local) |  |
+

@@ -2,70 +2,83 @@
 ![[Management Governance.png]]
 # Management Governance
 - Managing the cloud
-- [[OpsWorks]] --> A web-based service that provides a graphical user interface (GUI) for managing and configuring applications in the AWS cloud
 - Use [[Tags]] and [[Resource Groups]] to organize resources
+- [[Well-Architected Framework]] --> Helps you understand the pros and cons of decisions you make while building systems on AWS
+- [[Acceptable Use Policy]] --> Things you are not allowed to do with AWS
 
-## Managing Multiple AWS Accounts
-- It is possible to have 1 account, and multiple [[IAM]] accounts
-- *Alternative:* Multiple accounts (with 1 or more [[IAM]] users each)
-	- Use account limits multiple times (e.g. max number of *Elastic IPs*)
-	- Use free tier / monthly free usage multiple times (e.g. monthly free lambda executions)
-	- Improve organization && management by splitting by workload, team, or other criteria
-- [[Organizations]] --> Centralized billing, centralized management, cross-account service configurations && more
-- [[Control Tower]] (new!) --> Creates best-practice multi-account practice for you
-- Share resources via [[RAM]]
-- Each [[IAM]] user can use [[SSO (Now Identity Center)]] for logging in
+| Icon | Name | Description |
+| --- | --- | --- |
+| ![[Well Architected Tool.png]] | [[Well Architected Tool]] | Gives a catalog of questions, to be challenged, so that you are forced to evaluate your infrastructure |
+| ![[Trusted Advisor.png]] | [[Trusted Advisor]] | Automatically perform some predefined checks && offer recommendations |
 
-## Financial Management
+
+## Workload Configuration
+- Use [[RAM]] for secure resource sharing
+
+| Icon | Name | Description |
+| --- | --- | --- |
+| ![[OpsWorks.png]] | [[OpsWorks]] | Web-based service that provides a GUI for managing and configuring applications in the AWS cloud |
+| ![[CloudFormation.png]] | [[CloudFormation]] | Automate infrastructure deployments & updates |
+| ![[Launch Wizard.png]] | [[Launch Wizard]] | Helps with launching standardizes, pre-built (by AWS) applications |
+| ![[Proton.png]] | [[Proton]] | Create standardized [[Serverless]] and [[Containers]] deployments |
+| ![[Service Catalog.png]] | [[Service Catalog]] | Create standardized configurable AWS usage templates |
+| ![[_icons/Config.png]] | [[Config]] | Enforce service configurations |
+| ![[License Manager.png]] | [[License Manager]] | Manage software license |
+| ![[Systems Manager.png]] | [[Systems Manager]] | Manage workloads centrally |
+| ![[App Config.png]] | [[AppConfig]] | Feature of [[Systems Manager]], manage app parameters |
+| ![[Parameter Store.png]] | [[Systems Manager#Parameter Store\|Parameter store]] | Feature of [[Systems Manager]], manage app parameters |
+
+
+## Managing Accounts
+- Can have multiple [[IAM]] accounts with a single "root" account
+	- *or* can have multiple accounts with multiple [[IAM]] users each
+		- Can use account limit mutiple times (e.g. max num of *Elastic IPs*)
+		- Use free tier multiple times
+		- Improve organization && management by splitting workload
+
+| Icon | Name | Description |
+| --- | --- | --- |
+| ![[Organizations.png]] | [[Organizations]] | Centralized billing && management, cross account service config, etc... |
+| ![[Control Tower.png]] | [[Control Tower]] | Simplified version of [[Organizations]] |
+| ![[_icons/RAM.png]] | [[RAM]] | Securely share resources across accounts |
+| ![[_icons/IAM.png]] | [[IAM]] | Managing accounts of the employees |
+| ![[Identity Center.png]] | [[Identity Center]] | [[IAM]] users can use this for logging in |
+
+
+
 ![[Financial Management.png]]
+## Financial Management
+- [[Organizations]] / [[Control Tower]] --> Consolidated billing
 
-| Name                                            | Description                                                                                                                                    |
-| ----------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[Cost Explorer]]                               | View bills (updated daily) and analyze costs with cost management tools *(visualize costs over time)*                                          |
-| [[Budgets]]                                     | Set budgets, get alarms when threshold exceeded *(alarms on threshold)*                                                                        |
-| [[Cost and Usage Report]]                       | Can receive reports that break down your costs by the hour, day, or month, by product or product resource, or by tags that you define yourself |
-| [[CloudWatch#CloudWatch Alarm\|Billing Alarms]] | Billing alarms using cloudwatch alarms (but not as much features as [[Budgets]])                                                               |
-| [[Organizations]] / [[Control Tower]]           | *Consolidated Billing*                                                                                                                         |
-|                                                 |                                                                                                                                                |
+| Icon | Name | Description |
+| --- | --- | --- |
+| ![[Cost Explorer.png]] | [[Cost Explorer]] | View bills updated daily, analyze costs with tools *(visualize costs over time)* |
+| ![[Cost and Usage Report.png]] | [[Cost and Usage Report]] | Receive reports that break down cost by hour, day or month, by product / resource, by [[Tags]] |
+| ![[Budgets.png]] | [[Budgets]] | Set budgets, get alarms when a threshold is reached |
+| ![[CloudWatch Alarms.png]] | [[CloudWatch#CloudWatch Alarm\|CloudWatch Alarm]] | Billing alarms, but not as feature-rich as [[Budgets]] |  |
 
-
-## Infrastructure as Code
-- [[CloudFormation]] --> Automate infrastructure deployments & updates
-
-## Service && Workload Configuration
-- [[Systems Manager]] --> Manage workloads centrally
-	- Manage application parameters via [[AppConfig]] / [[Parameter Store]]
-	- Manage server fleets froma  central place (e.g. issue commands, updates, changes)
-- Define && Share **Standardized Cloud Resources**
-	- (Accounts shouldn't create different, custom solutions)
-	- [[Launch Wizard]] --> Helps with launching standardized, pre-built (by AWS) applications
-	- [[Proton]] --> Create standardized [[Serverless]] and [[Containers]] deployments
-	- [[Service Catalog]] --> Create standardized configurable aws usage templates
-	- [[RAM]] --> For shared resources
-- Control **Service Configuration**
-	- AWS [[Config]] --> Enforce service configurations
-	- [[License Manager]] --> Manage software license
 
 ## Monitoring
 - Keeping track of your services && applications
 - Allows u to react && fix issues early
+- Between [[CloudWatch]] and [[XRay]]
+	- [[XRay]] --> More of debugging, "seeing the flow"
+	- [[CloudWatch]] --> Monitoring, feeding its data into various sources
 
-### Services
-
-| Name           | Type         | About                                                                                                                   |
-| -------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------- |
-| [[CloudWatch]] | *monitoring* | Provides a reliable, scalable, and flexible monitoring solution that you can start using within minutes                 |
-| [[CloudTrail]] | *auditing*   | Audits your AWS deployments in the cloud by getting a history of AWS API calls                                          |
-| [[XRay]]       | *tracing*    | A distributed tracing system that enables you to understand the flow of requests and responses through your application |
-
-#### Between XRay and CloudWatch
-- [[XRay]] is more for debugging, while [[CloudWatch]] is just for monitoring, feeding its data into various sources
-- [[XRay]] --> "Seeing the flow"
+| Icon | Name | Description |
+| --- | --- | --- |
+| ![[CloudWatch.png]] | [[CloudWatch]] | *(monitoring)* Flexible monitoring solution |
+| ![[CloudTrail.png]] | [[CloudTrail]] | *(auditing)* Logs all API calls between AWS services |
+| ![[XRay.png]] | [[XRay]] | *(tracing)* Enables u to understand the flow of requests && responses throughout application |
 
 
 ## Disaster Recovery and Prevention
 - Coming back to live after a disaster
-- [[Backup]] --> For backup
-- [[Disaster Recovery Options]] --> Trades between *cost vs time* for recovery / prevention
-- [[RTO && RPO]] --> Recovery time, and data loss
+- *RTO (Recovery Time Objective)* --> How quickly after an outage an application must be available again
+- *RPO (Recovery Point Objective)* --> How much data loss u can tolerate
+	- ![[Disaster Recovery Options.png|600]]
+
+| Icon | Name | Description |
+| --- | --- | --- |
+| ![[Backup.png]] | [[Backup]] | For backup |
 

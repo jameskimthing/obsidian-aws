@@ -1,5 +1,5 @@
 # Security Hub
-![[Pasted image 20230405130127.png]]
+![[_icons/Security Hub.png]]
 - Automate AWS security checks and centralize security alerts
 
 - **Consolidate Other Security Services**
@@ -30,4 +30,4 @@
 - [[Trusted Advisor]] --> Automatically performs some predefined checks && offers recommendations
 
 
-![[Security Hub.png]]
+![[1. Security/_assets/Security Hub.png]]
